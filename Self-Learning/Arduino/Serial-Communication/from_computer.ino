@@ -4,6 +4,7 @@ const byte ledPin = 13;
 void setup()
 {
   pinMode(ledPin, OUTPUT);
+  
   Serial.begin(9600);
 }
 
